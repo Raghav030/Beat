@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="Brand"><img src="music-app-icon.png" alt="Beat"></li>
+            <h1>Beat</h1>
+            <li>Home</li>
+        <li>About</li>
+    </ul>
+    </nav>
+    <div class="containor">
+        <div class="songlist">
+            <h1>PlayList</h1>
+
+            <div class="songitemcontainor">
+                <div class="songitem">
+                    <img src="song-background/song-background.jpg" alt="music-app-background">
+                    <span class="songname">As long as you love me </span>
+                        <span><span class="timestamp"> 5:34</span><span><img id="0" src="play.png" alt="play" class="songitemplay"></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song-background/shapeofyou.jpg" alt="music-app-background">
+                    <span class="songname">Shape Of You </span>
+                        <span><span class="timestamp"> 5:34</span><span><img  id="1" src="play.png" alt="play" class="songitemplay"></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="song-background/thunder.jpg" alt="music-app-background">
+                    <span class="songname">Thunder </span>
+                        <span><span class="timestamp"> 5:34</span><span><img id="2" src="play.png" alt="play" class="songitemplay"></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- <i class="fa-regular fa-play"></i> -->
+            <img id ='previous' src="backward.png" alt="backward">
+            <img id="masterplay" src="play.png" alt="play" >
+            <img id='next' src="forward.png" alt="forward">
+            <!-- <a href="https://www.flaticon.com/free-icons/fast-forward" title="fast forward icons">Fast forward icons created by nawicon - Flaticon</a> -->
+            <!-- <object data="backward.svg" type="image/svg+xml"></object>
+            <object data="play.svg" type="image/svg+xml"></object>
+            <object data="next.svg" type="image/svg+xml"></object> -->
+
+            <!-- <i class="fa-regular fa-forward"></i>
+            <i class="fa-regular fa-backward"></i>
+            <img src="backward.svg" alt="backward"> -->
+        </div>
+        <div class="songinfo">
+            <img src="song-playing.gif" width="42px" alt="anonymous" id="gif"><span id="mastersongname"></span> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/5c6982c3f2.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
